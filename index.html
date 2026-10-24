@@ -19,7 +19,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans+JP:wght@500;700&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-    <link ref="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -46,7 +46,7 @@
         <!-- mv -->
         <div class="mv">
             <div class="mv__inner">
-                <div class="mv__title-area">
+                <div class="mv__text-area">
                     <div class="mv__subtitle">
                         Web Design <br class="sp">Conference vol.24
                     </div>
@@ -55,12 +55,12 @@
                     </h2>
                     <time class="mv__date" datetime="2030-05-30">2030.05.30</time>
                     <div class="mv__btn">
-                        <a href="#registor" class="btn">お申込み</a>
+                        <a href="#registor" class="btn">お申し込み</a>
                     </div>
                 </div>
                 <div class="mv__speaker-name">
-                    ショーン・デイビット・ジュニア<span class="mv__speaker-name-small">氏</span><br>
-                    <span class="mv_speaker-name-label">Webデザイナー</span>
+                    ショーン・デイビット・ジュニア<span class="mv__speaker-name--small">氏</span><br>
+                    <span class="mv__speaker-name--label">Webデザイナー</span>
                 </div>
             </div>
         </div>
@@ -129,15 +129,15 @@
                         </h2>
                     </div>
                     <div class="speaker__body">
-                        <div class="speaker-list">
-                            <div class="speaker-box">
-                                <div class="speaker-box__desc">
-                                    <div class="speaker-box__heading">
-                                        <h3 class="speaker-box__name">
-                                            Shawn David Jr<span class="speaker-box__name-note">ショーン・デイビット・ジュニア</span>
+                        <div class="speaker__list">
+                            <div class="speaker__box">
+                                <div class="speaker__desc">
+                                    <div class="speaker__heading">
+                                        <h3 class="speaker__name">
+                                            Shawn David Jr<span class="speaker__name--note">ショーン・デイビット・ジュニア</span>
                                         </h3>
                                     </div>
-                                    <div class="speaker-box__text">
+                                    <div class="speaker__text">
                                         <p>
                                             株式会社スタート代表取締役。Webデザイナー。<br>
                                             定時になると仕事用の脳と身体機能が停止し自動的に帰路につく男。ショーン氏のその姿は人間と言うよりもさながらアンドロイドのようである。<br>
@@ -147,41 +147,47 @@
                                         </p>
                                     </div>
                                 </div>
-                                <figure class="speaker-box__img">
+                                <figure class="speaker__img">
                                     <img src="img/sean.jpg" alt="ショーン・デイビット・ジュニア">
                                 </figure>
                             </div>
-                            <div class="speaker-box">
-                                <div class="speaker-box__desc">
-                                    <div class="speaker-box__heading">
-                                        <h3 class="speaker-box__naem">
-                                            Mihoko Tennis<span class="speaker-box__name-note">
+                            <div class="speaker__box">
+                                <div class="speaker__desc">
+                                    <div class="speaker__heading">
+                                        <h3 class="speaker__name">
+                                            Mihoko Tennis<span class="speaker__name--note">
                                             ミホコ・テニース</span>
                                         </h3>
                                     </div>
-                                    <div class="speaker-box__text">
+                                    <div class="speaker__text">
                                         <p>
                                             会社員兼プロテニスプレイヤー。WTOランキング63,984位。<br>
                                             会社員をしながらプロテニスプレイヤーとしても生計を立てているミホコ氏。平日は仕事で忙しい中、一体どのようにテニスの練習時間を捻出しているのか？会社にもテニスラケットを持ち込むというミホコ氏のワーキングスタイルに迫る。
                                         </p>
                                     </div>
                                 </div>
-                                <figure class="speaker-box__img">
+                                <figure class="speaker__img">
                                     <img src="img/mihoko.jpg" alt="ミホコ・テニース">
                                 </figure>
                             </div>
-                            <div class="speaker-box">
-                                <div class="speaker-box__desc">
-                                    <div class="spekaer-box__heading">
-                                        <h3 class="speaker-box__name">
-                                            Jecica Pannacotta<span class="speaker-box__name-note">
+                            <div class="speaker__box">
+                                <div class="speaker__desc">
+                                    <div class="speaker__heading">
+                                        <h3 class="speaker__name">
+                                            Jecica Pannacotta<span class="speaker__name--note">
                                             ジェシカ・パンナコッタ</span>
                                         </h3>
                                     </div>
-                                    <div class="speker-box__text">
-                                        <img src="img/jecica.jpg" alt="ジェシカ・パンナコッタ">
+                                    <div class="speaker__text">
+                                        <p>
+                                            フリーランスのエンジニア。<br>
+                                            「絶対に自宅でフルリモートで働く」という徹底したモットーに基づき、約7年間外出をしていない。インターネットを信仰しており、リアルやオフラインよりもオンラインを最重要視するライフスタイルを実践している。「外に出たら負け」が口グセのジェシカ氏の『超ネット仕事術』は必聴。
+                                        </p>
                                     </div>
                                 </div>
+                                <figure class="speaker__img">
+                                    <img src="img/jecica.jpg" alt="ジェシカ・パンナコッタ">
+                                </figure>
                             </div>
                         </div>
                     </div>
@@ -202,8 +208,7 @@
                             <table class="session-table">
                                 <tr>
                                     <th class="session-table__time">
-                                        <time datetime="13:00">13:00</time>-<br class="sp">
-                                        <time datetime="14:00">14:00</time>
+                                        <time datetime="13:00">13:00</time>-<br class="sp"><time datetime="14:00">14:00</time>
                                     </th>
                                     <td>
                                         <h3 class="session-table__title">
@@ -216,8 +221,7 @@
                                 </tr>
                                 <tr>
                                     <th class="session-table__time">
-                                        <time datetime="14:00">14:00</time>-<br class="sp">
-                                        <time datetime="18:00">18:00</time>
+                                        <time datetime="14:00">14:00</time>-<br class="sp"><time datetime="18:00">18:00</time>
                                     </th>
                                     <td>
                                         <h3 class="session-table__title">
@@ -230,8 +234,7 @@
                                 </tr>
                                 <tr>
                                     <th class="session-table__time">
-                                        <time datetime="18:00">18:00</time>-<br class="sp">
-                                        <time datetime="24:00">24:00</time>
+                                        <time datetime="18:00">18:00</time>-<br class="sp"><time datetime="24:00">24:00</time>
                                     </th>
                                     <td>
                                         <h3 class="session-table__title">
@@ -244,8 +247,7 @@
                                 </tr>
                                 <tr>
                                     <th class="session-table__time">
-                                        <time datetime="24:00">24:00</time>-<br class="sp">
-                                        <time datetime="13:00">13:00</time>
+                                        <time datetime="24:00">24:00</time>-<br class="sp"><time datetime="13:00">13:00</time>
                                     </th>
                                     <td>
                                         <h3 class="session-table__title">
@@ -278,7 +280,7 @@
                                 <fieldset class="form__item">
                                     <legend class="form__title">
                                         ご職業<span class="form__require">*必須</span>
-                                    <legend>
+                                    </legend>
                                     <span class="form__radio">
                                         <input type="radio" id="job-01" name="type" value="会社員" checked>
                                         <label for="job-01">会社員</label>
@@ -309,7 +311,7 @@
 
                                 <fieldset class="form__item">
                                     <label for="tel" class="form__title">電話番号<span class="form__note">（半角数字ハイフンなし）</span></label>
-                                    <input type="text" id="tel" name="tel" class="form__input">
+                                    <input type="tel" id="tel" name="tel" class="form__input">
                                 </fieldset>
 
                                 <fieldset class="form__item">
